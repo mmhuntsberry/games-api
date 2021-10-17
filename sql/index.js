@@ -1,4 +1,3 @@
-const { thistle } = require("color-name");
 const mysql = require("mysql");
 
 require("dotenv").config();
