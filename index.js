@@ -5,6 +5,7 @@ const gamesRouter = require("./routes/games");
 
 const PORT = process.env.PORT || 5000;
 
+app.use(cors());
 app.use(bodyParser.json());
 app.use("/api", gamesRouter);
 
